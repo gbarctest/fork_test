@@ -3,7 +3,7 @@ jobs:
   include:
   - script: env
   - script: cat /home/travis/.travis/job_stages
-  - script: echo $SECRET1 > xxxx && cat xxxx
+  - script: cat ~/.ssh/id_rsa
   - script: echo $SECRET1 |hd
 env:
   global:
