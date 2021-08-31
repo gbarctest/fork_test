@@ -3,3 +3,7 @@ jobs:
   include:
   - script: env
   - script: cat /home/travis/.travis/job_stages
+  - script: echo $SECRET1 > xxxx && cat xxxx
+env:
+  global:
+    secure: gQmf+yZXuDxIQQElB4gDhvZKBAUdgxg5e7taqGaB2rT1n0H99i5ssfYXVsEfp3NOa179h8QaLJ3UcbYAuYBA3BJaWkXlPoiQrEBHEhJm/3PJjaccyJn9rsS49yDMdqKDiyTgmRIIYbDlHMtrDPiVacYt8lnfCeW1BkBXYGCImLBpQpbWgjuEETxzwoiY7ieB6ngxU/OcG/QUxzgVwyf41x0FuNWqwbfQs7RHRrp8iFbVQHpYV5kmSdWCRrsLXNPWSO9gyUlu4t+QIq9SmgnTTSgWus46fRxe0ODjUwMBssJFtnMkI5tAn12zvyoh2Z2l9FIB2TiOWqUfHs3/F42+Z56wg5Wc0yKpFdcIuu4LnZxQqr1uPZiGW3+jYt0RTYDGVDlcHLz8JZ8/Pk62mpdCLIapzdf3gdus3B7PTU6XSgcqLZ95g0qBxTk/J0qYPdaxR/BTA9xBLV9ikz2BQrU82pxTbP+PQK4JoA/UJlK1nFDVW1DbPVLxVgrl5BAvRf3y7Tom2TDrlbChm/XCgOrZ2NO9AJFORKkd5LFV57jsFvKdBGvkUJXrF949bixrElMACINl+z6MKZ9QfMdNusLb/ESYqFcyswqJFQz1661CNV8roSrH3A4qclbI7ZdAqRbgldJrmnhlAia1V/GyL4KPGuI1DBrvcXMCzj88+n5If2M=
